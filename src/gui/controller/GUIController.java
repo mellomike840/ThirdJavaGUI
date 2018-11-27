@@ -14,7 +14,12 @@ public class GUIController
 	
 	public int returnConstant(int number, int repetitions)
 	{
-		int returnValue = 0;
+		int returnValue = number;
+		
+		for(int i = 0; i < repetitions; i++)
+		{
+			number += number;
+		}
 		
 		return returnValue;
 	}
