@@ -14,5 +14,7 @@ public class SamplePanel extends JPanel
 		this.appController = appController;
 	}
 	
+	
+	
 
 }
